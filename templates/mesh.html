@@ -149,26 +149,7 @@ function showHome() {
 function selectConnection(connectionType) {
     alert('Connection type selected: ' + connectionType);
 }
-document.getElementById('communicationForm').addEventListener('submit', function(event) {
-    event.preventDefault(); // Prevent form submission
-    // Get form values
-    var name = document.getElementById('name').value;
-    var address = document.getElementById('address').value;
-    var phone = document.getElementById('phone').value;
-    var message = document.getElementById('message').value;
-    // Here you can implement code to send this data to a server for processing and communication
-    // For the sake of this example, let's log the data to the console
-    console.log('Name:', name);
-    console.log('Address:', address);
-    console.log('Phone Number:', phone);
-    console.log('Message:', message);
-    alert('Your message has been submitted successfully!'); // Inform the user
-    // Clear form fields
-    document.getElementById('name').value = '';
-    document.getElementById('address').value = '';
-    document.getElementById('phone').value = '';
-    document.getElementById('message').value = '';
-});
+
 </script>
 
 </body>
