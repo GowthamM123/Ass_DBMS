@@ -18,7 +18,7 @@ def submit():
         #Connection
 
         conn=psycopg2.connect(
-            host='localhost',
+            host='https://github.com/GowthamM123/Ass_DBMS/settings/pages',
             database='login',
             user='postgres',
             password='GOWTHAM@123'
